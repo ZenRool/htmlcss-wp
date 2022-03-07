@@ -94,7 +94,7 @@ nav a{
     color: white;
     bottom : 4em;
     left: 4em;
-    width: calc(100%-4em);
+    width: calc(100% - 4em);
     max-width: 900px;
 
 }
