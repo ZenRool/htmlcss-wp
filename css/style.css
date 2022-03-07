@@ -1,0 +1,149 @@
+:root {
+    --margin-content: 10px;
+}
+/* RESET */
+/* e utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+.margin-b{
+    margin-bottom: 30px;
+}
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+/* Containet */
+.container{
+    max-width: 1300px;
+    width: 99%;
+    margin: 2em auto;
+}
+/* HEADER */
+/* header{
+Al momento non ho bisogno
+    
+} */
+/* MAIN */
+.jumbotron{
+    /* background-color: sandybrown; */
+    position: relative;
+    height: 450px;
+}
+/* .content{
+
+    height: 450px;
+} */
+.top{
+    height: 15%;
+    margin-bottom: var(--margin-content);
+}
+.side{
+    width: 20%;
+    
+}
+.middle{
+    /* width: calc(60%-var(--content-margin); */
+    width: calc(60% - var(--margin-content)*2);
+    margin: 0 var(--margin-content);
+}
+.collomn{
+    float: left;
+    padding: 1em;    
+}
+/* FOOTER  */
+footer{
+    text-align: center;
+}
+
+/* Sistemazione pagina */
+
+
+header a span, header a img{
+    font-size: 2.5em;
+    /* font-weight: bold;*/
+    color: black;
+    vertical-align: middle;
+}
+header a span{
+    padding: 0 0.3em;
+}
+header a{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1em;
+
+}
+#icon{
+    
+    border-right: 1px solid gray ;
+
+}
+/* NAV  */
+nav div{
+    font-size: 1.5em;
+    height: 2em;
+    padding-right: 2em;
+    float: left;
+
+}
+nav a{
+    color:gray;
+    line-height: 2em;
+    margin: 0;
+}
+/* JUMBOTRON  */
+.jumbotron img{
+    /* max-height: 100%; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+img.none{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.jumbotron:hover .none{
+    display: inline-block;
+
+}
+.jumbotron:hover .postnone{
+    display: none;
+}
+.jumbotron>div{
+    position: absolute;
+    color: white;
+    bottom : 5em;
+    left: 4em;
+}
+h3{
+    font-size: 3em;
+    font-weight: normal;
+}
+/* Content  */
+.content img{
+    /* max-height: 100%; */
+    height: 200px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h4{
+    margin: 2em 0;
+}
