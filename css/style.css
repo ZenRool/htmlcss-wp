@@ -151,3 +151,8 @@ h4{
 footer{
     text-align: center;
 }
+footer span{
+    color: red;
+    font-size: 3em;
+    vertical-align: middle;
+}
