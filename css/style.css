@@ -153,6 +153,33 @@ footer{
 }
 footer span{
     color: red;
-    font-size: 3em;
+    font-size: 2em;
     vertical-align: middle;
+}
+/* Prova  */
+.pulse {
+    position: relative;
+
+    transform: translate(-50%, -50%);
+}
+.pulse:before,
+.pulse:after {
+    content: "\2665";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation: animate 2s  5 ease-in-out;
+}
+.pulse:after {
+    animation-delay: 1s;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(2.0);
+    }
+
+    100% {
+        transform: scale(0.7);
+    }
 }
